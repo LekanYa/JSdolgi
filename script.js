@@ -1,1 +1,3 @@
-alert('Я обязательно закрою все долги');
+let arr = ['a', 'b', 'c'];
+let key = 2;
+console.log(arr[key]);
