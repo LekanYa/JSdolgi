@@ -1,2 +1,2 @@
-let num = '123';
-console.log(num.length);
+let a = 24 * 60 * 60;
+console.log(a);
