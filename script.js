@@ -1,3 +1,1 @@
-let a = 'false';
-let b = 'true'
-alert(a*b);
+alert(10 / 0);
