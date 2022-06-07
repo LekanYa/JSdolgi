@@ -1,3 +1,5 @@
-let num = 123;
-let str = String(num);
-console.log(str.length); 
+let a = '123';
+let b = '456';
+let s = Number(a) + Number(b);
+
+console.log(s);
