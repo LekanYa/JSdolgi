@@ -1,2 +1,2 @@
 let text = 'hello world';
-document.write('text');
+document.write(text);
