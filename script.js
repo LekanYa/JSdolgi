@@ -1,5 +1,2 @@
-let a;
-a = 10;
-alert(a);
-a = 20;
-alert(a); 
+let a = 1 + 2+ 3;
+alert (a);
