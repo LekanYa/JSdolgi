@@ -1,4 +1,3 @@
-let num1 = prompt('Введите первое число');
-let num2 = prompt('Введите второе число');
+let num1 = prompt('Введите сторону квадрата');
 
-alert(Number(num1) + Number(num2));
+alert(Number(num1) * Number(num1));
