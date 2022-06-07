@@ -1,3 +1,3 @@
-let a = '10';
-let b = '20';
-alert (a + b);
+let a = '2';
+let b = '3';
+alert(+a + +b);
