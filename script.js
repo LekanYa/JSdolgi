@@ -1,3 +1,3 @@
-let str = 'java';
-let str1 = 'script';
-alert(str + str1);
+let str = 'hello';
+let str1 = 'world';
+alert(str + ' ' + str1);
