@@ -1,1 +1,10 @@
-alert('Я обязательно закрою все долги');
+let a = 10;
+let b = 2;
+let c = a + b;
+alert (c);
+c = a - b;
+alert (c);
+c = a * b;
+alert (c);
+c = a / b;
+alert (c);
