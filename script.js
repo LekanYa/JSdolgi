@@ -1,1 +1,2 @@
-document.write('text1<br>');
+let str = 'text';
+document.write('<b>' + str + '</b>'); 
