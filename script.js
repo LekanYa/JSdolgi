@@ -1,6 +1,5 @@
-let arr = []; 
-arr[0] = 1;
-arr[1] = 2;   
-arr[2] = 3; 
+let arr = [];
 
-console.log(arr);
+arr[3] = 'a';
+arr[8] = 'b';
+console.log(arr.length);
