@@ -1,1 +1,2 @@
-alert('Я обязательно закрою все долги');
+let str = 'javascript';
+alert(str.length);
