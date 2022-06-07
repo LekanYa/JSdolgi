@@ -1,4 +1,3 @@
-const pi = 3.14;
-let r = 3;
-s = pi* r ** 2;
+let a = 3;
+s = a ** 2;
 alert(s);
