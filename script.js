@@ -1,2 +1,2 @@
 let str = 'abcde';
-alert(str[str.length - 1]);
+alert(str[str.length - 2]);
