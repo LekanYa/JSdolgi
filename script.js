@@ -1,4 +1,4 @@
-let c = 10;
-let d = 5;
-let result = c + d;
-alert (result);
+let a = 1;
+let b = 2;
+let c = 3;
+alert (a + b + c);
