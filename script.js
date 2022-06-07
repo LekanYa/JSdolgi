@@ -1,3 +1,2 @@
-let a = 0;
-a++;
-console.log(a);
+let num = '123';
+console.log(num.length);
