@@ -1,2 +1,3 @@
 let num = 12345;
-alert(String(num).length);
+let num1 = 45678;
+alert(String(num).length + String(num1).length);
