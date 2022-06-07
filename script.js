@@ -1,3 +1,4 @@
 let a = 3;
-s = a ** 2;
+let b = 5;
+s = a * b;
 alert(s);
