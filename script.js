@@ -1,10 +1,4 @@
-let a = 10;
-let b = 2;
-let c = a + b;
-alert (c);
-c = a - b;
-alert (c);
-c = a * b;
-alert (c);
-c = a / b;
-alert (c);
+let c = 10;
+let d = 5;
+let result = c + d;
+alert (result);
