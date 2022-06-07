@@ -1,4 +1,3 @@
-let a = 3;
-let b = 5;
-p = 2 * (a + b);
-alert(p);
+let f = 20;
+c = 5 / 9 * (f - 32);
+alert (c);
