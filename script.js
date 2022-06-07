@@ -1,2 +1,2 @@
-let a;
+let a = null;
 alert(a);
