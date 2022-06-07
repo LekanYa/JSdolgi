@@ -1,3 +1,3 @@
-let a = 13;
+let a = 2;
 let b = 5;
 alert(a % b); 
