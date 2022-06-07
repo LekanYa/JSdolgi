@@ -1,5 +1,5 @@
-let num = 123;
-let a,b;
-a = 1;
-b = 2;
-alert(num); 
+let a;
+a = 10;
+alert(a);
+a = 20;
+alert(a); 
