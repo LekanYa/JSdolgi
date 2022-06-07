@@ -1,5 +1,5 @@
-let a = '123';
-let b = '456';
-let s = Number(a) + Number(b);
-
-console.log(s);
+let aaa = 1;
+let bbb = 2;
+let ccc = 3;
+let s = aaa + bbb + ccc;
+alert(s);
