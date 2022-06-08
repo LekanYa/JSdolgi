@@ -1,13 +1,5 @@
-let min = 10;
+let arr = [1, 2, 3, 4, 5, 6];
 
-if (min >= 0 && min <= 19) {
-	console.log('1 треть');
-}
-
-if (min >= 20 && min <= 49) {
-	console.log('2 треть');
-}
-
-if (min >= 50 && min <= 60) {
-	console.log('3 треть');
+if (arr.length >= 3) {
+	console.log(arr[0] + arr[1] + arr[2] + arr[3] + arr [4] + arr[5]);
 }
