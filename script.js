@@ -1,7 +1,8 @@
-let test = 0;
+let test1 = 0;
+let test2 = 3;
 
-if (test != 10) {
-	alert('верно');
+if (test1 > test2) {
+	alert( test1 + ' больше');
 } else {
-	alert('неверно');
+	alert(test2 +' больше');
 }
