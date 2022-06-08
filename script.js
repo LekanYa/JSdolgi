@@ -1,1 +1,1 @@
-if (test == 0) alert('верно');else alert('неверно!');
+if (test == 0) alert('верно');
