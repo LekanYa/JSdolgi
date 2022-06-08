@@ -1,5 +1,1 @@
-let test = 1;
-
-if (test == 10) {
-	alert('верно');
-}
+if (test == 0) alert('верно');else alert('неверно!');
