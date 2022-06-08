@@ -1,1 +1,7 @@
-alert('Я обязательно закрою все долги');
+let test = true;
+
+if (test === true) {
+	alert('верно');
+} else {
+	alert('неверно');
+}
