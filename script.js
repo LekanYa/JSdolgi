@@ -1,9 +1,9 @@
 let a = 10;
-let b = 3;
+let b = 2;
 let rest = a % b;
 
 if (rest == 0) {
-	console.log('делится нацело');
+	console.log('четное');
 } else {
-	console.log('делится с остатком ' + rest); 
+	console.log('нечетное'); 
 }
