@@ -1,4 +1,4 @@
 let obj = {a: 1, b: 2, c: 3};
-let key = 'a';
+let sum = obj[a] + obj[b] + obj[c];
 
-console.log(obj[key]);
+console.log(sum);
