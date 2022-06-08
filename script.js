@@ -1,7 +1,7 @@
-let num1 = 2;
-let num2 = 7;
-
-if (num1 <= 1 && num2 >= 3) {
+let num = 3;
+		
+if ((num > 5 && num < 10) || num 
+	== 20) { 
 	alert('верно');
 } else {
 	alert('неверно');
