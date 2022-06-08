@@ -1,11 +1,11 @@
-let day = 3;
+let num = 43;
 
-if (day >= 1 && day <= 10){
-    alert('1 декада');
-} else if (day  >= 11 && day <= 20){
-    alert ('2 декада');
-} else if (day >= 21 && day <= 31){
-    alwert ('3 декада');
-} else {
-    alert ('неверное значение переменной')
+if (num >= 10 && num <= 100){
+    let c = num % 10 + Math.floor(num/10);
+        if (c <= 9){
+            alert ('сумма цифр однозначна');
+        }
+        else {
+            alert('сумма цифр двузначна');
+        }
 }
