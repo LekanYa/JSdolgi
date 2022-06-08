@@ -1,6 +1,6 @@
-let test = false;
+let test = true;
 
-if (test === false) {
+if (test) {
 	alert('верно');
 } else {
 	alert('неверно');
