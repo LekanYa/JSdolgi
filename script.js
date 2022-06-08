@@ -1,8 +1,9 @@
-let num = 12345;
-let last = String(num)[4];
+let a = 10;
+let b = 3;
+let rest = a % b;
 
-if (last == 0 || last == 2 || last == 4 || last == 6 || last == 8) {
-	console.log('Четное');
+if (rest == 0) {
+	console.log('делится нацело');
 } else {
-	console.log('нечетное');
+	console.log('делится с остатком ' + rest); 
 }
