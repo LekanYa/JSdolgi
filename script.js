@@ -1,4 +1,4 @@
-let age = 17;
+let age = 19;
 let result;
 
 if (age >= 18) {
@@ -8,7 +8,7 @@ if (age >= 18) {
 		result = 'больше 23';
 	}
 } else {
-    result = 'меньше 18';
+	result = 'меньше 18';
 }
 
 console.log(result);
