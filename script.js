@@ -1,18 +1,11 @@
-let arr = [1, 2, 3, 2, 4, 3, 5, 6, 3, 2, 3]; 
-let counter3 = 0;
-let counter2 = 0
+let obj = {1: 125, 2: 225, 3: 128, 4: 356, 5: 145, 6: 281, 7: 452,};
+let arr = [];
 
-for (let elem of arr) {
-	if (elem == 3) {
-		counter3++;
-	}
+for (let key in obj) {
+ let str = String(obj[key]);
+if (str[0] == 1 || str[0] == 2) {
+    arr.push(obj[key]);
+}
 }
 
-for (let elem of arr) {
-	if (elem == 2) {
-		counter2++;
-	}
-}
-
-console.log(counter3);
-console.log(counter2);  
+console.log(arr);
