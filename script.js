@@ -1,7 +1,8 @@
-let res = 1;
+let arr = [1, 2, 3, 4, 5];
+let sum = 0;
 
-for (let i = 1; i <= 10; i++) {
-	res *= i;
+for (let elem of arr) {
+	sum += elem;
 }
 
-alert(res);
+console.log(sum);
