@@ -1,9 +1,6 @@
-let i = 11;
-let k = 0;
+let i = 0;
 
-while (i <= 33) {
-	k += i;
-	i++
+while (i <= 99) {
+	i += 2;
+	console.log(i)
 }
-
-console.log(k);
