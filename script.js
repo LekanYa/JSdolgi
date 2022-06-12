@@ -1,8 +1,8 @@
-let arr = ['1', '2', '3', '4', '5'];
-let sum = 0;
+let arr = [1, 2, 3, 4, 5];
 
-for (let i = 0; i <= arr.length - 1; i++) { 
-	sum += +arr[i];
+for (let elem in arr) {
+	elem = elem ** 2;
+
 }
 
-alert(sum);  
+alert(arr);
