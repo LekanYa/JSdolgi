@@ -1,9 +1,7 @@
-for (let i = 5; i >= 1; i--) {
-    let str = '';
-    
-    for (let j = 0; j < i; j++) {
-    str += 'xx';
+for (let i = 9; i >= 1; i--) {
+    for (let j = 1; j <= i; j++) {
+    document.write(i);
     }
     
-    document.write(str + '<br>');
+    document.write('<br>');
     }
