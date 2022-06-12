@@ -1,6 +1,5 @@
-let arr = [1, 2, 3, 4, 5];
-let result = 0;
-for (let num of arr){
-	result += num;
+let arr = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 
+'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+for (let mon of arr){
+	console.log(mon);
 }
-console.log(result);
