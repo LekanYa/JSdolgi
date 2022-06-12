@@ -1,10 +1,7 @@
-let obj = {1: 'пн', 2: 'вт', 3: 'ср', 4: 'чт', 5: 'пт', 6: 'сб', 7: 'вс'};
-let result = {};
+let obj = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}; 
 
 for (let key in obj) {
-if (key % 2 != 0) {
-result[key] = obj[key];
-}
+	obj[key] = obj[key] ** 2;
 }
 
-console.log(result);
+console.log(obj);
