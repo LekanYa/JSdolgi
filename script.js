@@ -1,12 +1,11 @@
-let obj = {1: 6, 2: 7, 3: 8, 4: 9, 5: 10};
-let result = 0;
-let sumKey = 0;
-let sumValue = 0;
+let obj = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5};
+let values = [];
+let keys = [];
 
 for (let key in obj) {
-sumKey += Number(key);
-sumValue += Number(obj[key]);
+keys.push(key);
+values.push(obj[key]);
 }
 
-result = sumKey / sumValue ;
-console.log(result);
+console.log(values);
+console.log(keys);
