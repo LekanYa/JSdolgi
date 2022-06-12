@@ -1,3 +1,5 @@
-let a = 2 ** 4;
-let b = 4 ** 2;
-console.log(a!=b);
+console.log(2);
+console.log('1 затем 2');
+console.log('null');
+console.log('undefined')
+console.log(3) 
