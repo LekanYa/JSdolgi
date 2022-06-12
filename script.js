@@ -3,7 +3,7 @@ let obj = {};
 let i = 1;
 
 for (let elem of arr) {
-obj[i] = elem;
+obj[elem] = i;
 i++;
 }
 
