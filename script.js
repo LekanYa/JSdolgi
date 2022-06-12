@@ -1,8 +1,7 @@
-let arr = [1, 2, 3, 4, 5];
+let arr = [];
 
-for (let elem in arr) {
-	elem = elem ** 2;
-
+for (let i = 0; i < 5; i++) {
+	arr.push(i + 1);
 }
 
-alert(arr);
+console.log(arr);
