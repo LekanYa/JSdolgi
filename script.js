@@ -1,8 +1,13 @@
-let obj = {a: 1, b: 2, c: 3};
-let sum = 0;
+let arr = [1, 2, 3, 4, 5];
+let res = '';
 
-for (let elem in obj) {
-	sum += obj[elem];
+for (let elem of arr) {
+	if (arr[elem] === 3) {
+		res = '+++';
+        break;
+	} else {
+		res = '---';
+	}
 }
 
-console.log(sum);
+alert(res);
