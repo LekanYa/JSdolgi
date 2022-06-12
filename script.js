@@ -6,3 +6,5 @@ if (key % 2 != 0) {
 result[key] = obj[key];
 }
 }
+
+console.log(result);
