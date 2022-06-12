@@ -1,5 +1,2 @@
-let num = 2;
-
-while (num > 1000) {
-	num = num * 3;
-}
+for (var num = 1; num > 1000; num = num * 3); 
+console.log(num); 
