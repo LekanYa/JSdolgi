@@ -1,7 +1,6 @@
-let num1 = '1';
-let num2 = '2';
+let num = 123;
 
-if (Number(num1 + num2) > 3) {
+if (num[0] || 1) {
 	console.log('+++');
 } else {
 	console.log('---');
