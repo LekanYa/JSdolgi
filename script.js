@@ -9,7 +9,9 @@ let obj = {
     };
     
     for (let key in obj) {
+    if (obj[key] <= 400){
     obj[key] += (obj[key] * 10) / 100 ;
     }
     
+    }
     console.log(obj);
