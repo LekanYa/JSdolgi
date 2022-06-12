@@ -1,6 +1,7 @@
-let num = 123;
+let num = 12;
+let str = String(num);
 
-if (String(num)[0] || 1) {
+if (str.length === 2) {
 	console.log('+++');
 } else {
 	console.log('---');
