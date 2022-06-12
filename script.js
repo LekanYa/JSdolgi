@@ -1,7 +1,9 @@
-let num = 12345;
+var n = 123;
+var sum = 0;
 
-if (num[0] == 1 || num[0] == 2 || num[0] == 3) {
-	console.log('да');
-} else {
-	console.log('нет'); 
+while (n > 0) {
+    sum += n % 10
+    n = Math.floor(n/10)
 }
+
+alert(sum);
