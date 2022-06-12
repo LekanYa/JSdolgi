@@ -1,7 +1,9 @@
-let arr = [2, 5, 9, 15, 1, 4];
+let arr = [-1, 3, 4, -7, 3];
+let result = 0;
 		
 for (let i = 0; i < arr.length; i++) { 
-	if ((arr[i] > 3) && (arr[i] < 10)){
-		console.log(arr[i]);
+	if (arr[i] > 0){
+		result += arr[i];
 	}
 }
+console.log(result);
