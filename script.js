@@ -1,7 +1,8 @@
-let arr = [];
+let obj = {a: 1, b: 2, c: 3};
+let sum = 0;
 
-for (let i = 0; i < 5; i++) {
-	arr.push(i + 1);
+for (let elem in obj) {
+	sum += obj[elem];
 }
 
-console.log(arr);
+console.log(sum);
