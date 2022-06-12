@@ -1,8 +1,12 @@
-let arr1 = [1, 2, 3, 4, 5];
-let arr2 = [6, 7, 8, 9, 10];
-let obj = {};
+let obj = {1: 6, 2: 7, 3: 8, 4: 9, 5: 10};
+let result = 0;
+let sumKey = 0;
+let sumValue = 0;
 
-for (let i = 0; i < arr1.length; i++ ) {
-obj[arr1[i]] = arr2[i];
+for (let key in obj) {
+sumKey += Number(key);
+sumValue += Number(obj[key]);
 }
-console.log(obj);
+
+result = sumKey / sumValue ;
+console.log(result);
