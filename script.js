@@ -1,8 +1,9 @@
-let num = 12;
-let str = String(num);
+let num = '123033'; 
+let sum1 = num[0] + num[1] + num[2]; 
+let sum2 = num[3] + num[4] + num[5]; 
 
-if (str.length === 2) {
-	console.log('+++');
+if (sum1 == sum2) {
+	console.log('суммы равны');
 } else {
-	console.log('---');
+	console.log('суммы не равны');
 }
