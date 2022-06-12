@@ -3,7 +3,7 @@ let arr2 = [1, 2, 3, 4, 5, 6, 7];
 let obj = {};
 
 for (let i = 0; i <= 4; i++) {
-	obj[arr1[i]] = arr2[i];
+	obj[arr2[i]] = arr1[i];
 }
 
 console.log(obj);
