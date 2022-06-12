@@ -1,8 +1,7 @@
-let str = '';
+let arr = [];
 
-for (let i = 1; i <= 100; i++) {
-str = i;
-if (str % 2 == 0) {
-document.write(str + '<br>');
+for (let i = 0; i <= 10; i++) {
+arr.push('x');
 }
-}
+
+console.log(arr);
