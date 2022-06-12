@@ -1,7 +1,6 @@
-let arr = [1,3,2,89,42,5,7,-34,36,0,-6,4,-9,7];
-
+var arr = [1, 2, 3, 4, 5];
 var sum = 0;
 for(var i = 0; i < arr.length; i++) {
-sum += arr[i];
+sum += arr[i] * arr[i];
 }
 alert(sum);
