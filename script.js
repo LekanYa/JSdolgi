@@ -1,9 +1,5 @@
-let arr = ['a', 'b', 'c', 'd', 'e'];
-let result = [];
+let arr = [];
 
-for (let i = arr.length - 1; i >= 
-	0; i--) { 
-	result.push(arr[i]);
-}
-
-console.log(result);
+arr.push('a');
+arr.push('b');
+arr.push('c');
