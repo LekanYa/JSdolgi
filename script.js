@@ -1,10 +1,18 @@
-let arr = ['a', 'b', 'c', 'd', 'e'];
-let obj = {};
-let i = 1;
+let arr = [1, 2, 3, 2, 4, 3, 5, 6, 3, 2, 3]; 
+let counter3 = 0;
+let counter2 = 0
 
 for (let elem of arr) {
-obj[elem] = i;
-i++;
+	if (elem == 3) {
+		counter3++;
+	}
 }
 
-console.log(obj);
+for (let elem of arr) {
+	if (elem == 2) {
+		counter2++;
+	}
+}
+
+console.log(counter3);
+console.log(counter2);  
