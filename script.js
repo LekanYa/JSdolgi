@@ -1,12 +1,10 @@
 let arr = [1, 2, 3, 4, 5];
-let res = '';
+let res = false;
 
 for (let elem of arr) {
 	if (arr[elem] === 3) {
-		res = '+++';
-        break;
-	} else {
-		res = '---';
+		res = true;
+		break;
 	}
 }
 
