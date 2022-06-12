@@ -1,5 +1,7 @@
 let arr = [];
 
-arr.push('a');
-arr.push('b');
-arr.push('c');
+for (let i = 1; i <= 5; i++) {
+	arr.push(i);
+}
+
+console.log(arr);
