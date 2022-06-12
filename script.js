@@ -1,7 +1,7 @@
 let str = '';
 
-for (let i = 1; i < 10; i++) {
+for (let i = 9; i > 0; i--) {
 	str = str + i;
 }
 
-console.log(str);
+alert(str);
