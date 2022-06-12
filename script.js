@@ -5,4 +5,4 @@ for (let elem of arr) {
 	sum += elem;
 }
 
-console.log(sum);
+console.log(sum);  
