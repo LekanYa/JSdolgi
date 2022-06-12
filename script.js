@@ -5,4 +5,4 @@ for (let i = 0; i <= arr.length - 1; i++) {
 	sum += +arr[i];
 }
 
-alert(sum);
+alert(sum);  
